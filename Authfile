@@ -1,0 +1,3 @@
+u ligo /user/ligo r
+g /osg/ligo /user/ligo r
+u * /user/ligo -r / r
