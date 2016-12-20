@@ -1,0 +1,9 @@
+[Unit]
+Description=Renew proxy every 1 hour
+
+[Timer]
+OnBootSec=15s
+OnUnitActiveSec=1h
+
+[Install]
+WantedBy=timers.target
